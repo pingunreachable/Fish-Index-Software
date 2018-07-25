@@ -1,0 +1,30 @@
+#map {
+  //width: 90%;
+  //height: 90%;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.sites, .sites svg {
+  position: absolute;
+}
+
+.sites svg {
+  width: 60px;
+  height: 20px;
+  padding-right: 100px;
+  font: 10px sans-serif;
+}
+
+.sites circle {
+  fill: orange;
+  stroke: black;
+  stroke-width: 1.5px;
+}
+
+.sites circle:hover{
+  fill: red;
+  cursor: pointer;
+}
